@@ -1,0 +1,18 @@
+{
+  "name": "s2026q2a-acronyms-demo",
+  "version": "1.0.0",
+  "description": "Demo de CORS y CI/CD para el semillero",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
